@@ -168,7 +168,7 @@ gleam format
 
 ### Project Structure
 
-```
+```text
 gtin/
 ├── src/
 │   ├── gtin.gleam              # Main public API
