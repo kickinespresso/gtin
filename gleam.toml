@@ -1,12 +1,12 @@
-name = "gtin"
+name = "gl_gtin"
 version = "1.0.0"
 description = "A Gleam library for validating and generating GTIN (Global Trade Item Number) codes according to GS1 specification."
 licenses = ["MIT"]
-repository = { type = "github", user = "kickinespresso", repo = "gtin" }
+repository = { type = "github", user = "kickinespresso", repo = "gl_gtin" }
 links = [
-  { title = "Home page", href = "https://github.com/kickinespresso/gtin" },
-  { title = "Hex", href = "https://hex.pm/packages/gtin" },
-  { title = "Documentation", href = "https://hexdocs.pm/gtin/" }
+  { title = "Home page", href = "https://github.com/kickinespresso/gl_gtin" },
+  { title = "Hex", href = "https://hex.pm/packages/gl_gtin" },
+  { title = "Documentation", href = "https://hexdocs.pm/gl_gtin/" }
 ]
 
 # For a full reference of all the available options, you can have a look at
