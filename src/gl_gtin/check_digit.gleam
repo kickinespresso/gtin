@@ -3,11 +3,11 @@
 //// Implements the GS1 Modulo 10 algorithm for calculating and validating
 //// GTIN check digits.
 
+import gl_gtin/internal/utils
 import gleam/int
 import gleam/list
 import gleam/result
 import gleam/string
-import gl_gtin/internal/utils
 
 /// Error type for check digit operations
 pub type CheckDigitError {

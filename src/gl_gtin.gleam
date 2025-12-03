@@ -28,10 +28,10 @@
 //// }
 //// ```
 
-import gleam/result
 import gl_gtin/check_digit
 import gl_gtin/gs1_prefix
 import gl_gtin/validation
+import gleam/result
 
 /// Supported GTIN formats based on digit count.
 pub type GtinFormat {

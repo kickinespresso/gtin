@@ -1,8 +1,8 @@
+import gl_gtin
 import gleam/list
 import gleam/string
 import gleeunit
 import gleeunit/should
-import gl_gtin
 
 pub fn main() -> Nil {
   gleeunit.main()

@@ -3,11 +3,11 @@
 //// Implements core validation logic for GTIN codes including format detection,
 //// check digit verification, and GTIN normalization.
 
+import gl_gtin/check_digit
+import gl_gtin/internal/utils
 import gleam/list
 import gleam/result
 import gleam/string
-import gl_gtin/check_digit
-import gl_gtin/internal/utils
 
 /// GTIN format type
 pub type GtinFormat {
